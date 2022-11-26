@@ -24,11 +24,12 @@ body{
         /*position: relative;
         top: -0.5rem;*/
       }
+/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-
+/* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 15px;
   background: #343a40;
