@@ -24,6 +24,9 @@ body{
         /*position: relative;
         top: -0.5rem;*/
       }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
 
 ::-webkit-scrollbar-thumb {
