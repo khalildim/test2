@@ -1,6 +1,26 @@
 body{
     background-color: black;
 }
-p{
-    color: aqua;
-}
+    p {
+        font-size: 1.5rem;
+        color: grey;
+        /*width: 30rem;*/
+        /*position: absolute;*/
+        /*left: 8rem;
+        top: 22rem;*/
+        /*animation: fadeIn 1s linear 0s 1 normal forwards;*/
+        /* animation: godup 1s linear 0s 1 normal forwards; */
+      }
+      .Brand {
+        width: 10rem;
+      }
+      .btn {
+        width: 8rem;
+        background: linear-gradient(rgb(0, 0, 30), rgb(0, 0, 30)) padding-box,
+          linear-gradient(to right, darkblue, darkorchid) border-box;
+        border-radius: 50em;
+        border: 4px solid transparent;
+        color: #47B5FF;
+        /*position: relative;
+        top: -0.5rem;*/
+      }
