@@ -24,3 +24,13 @@ body{
         /*position: relative;
         top: -0.5rem;*/
       }
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #343a40;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
