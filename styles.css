@@ -3,13 +3,22 @@ body{
 }
 
 
+
+
 .begPara {
   color: #ffff;
 }
 
+.ProfileImg {
+   width: 45rem;
+   /* NOTE: % */
+   -webkit-mask-image: linear-gradient( rgb(0, 0, 30), transparent);
+   mask-image: linear-gradient( rgb(0, 0, 30), transparent);
+   }
+
 p {
     font-size: 1.5rem;
-    color: grey;
+    color: #808080;
     /*width: 30rem;*/
     /*position: absolute;*/
     /*left: 8rem;
@@ -50,11 +59,17 @@ p {
     display: inline-block;
   }
   
-    @media screen and (max-width: 773px) {
+  @media screen and (max-width: 773px) {
     h1{font-size: 2rem;}
     p{font-size: 1rem;}
     
   }
+  @media screen and (max-width: 1199px) and (min-width: 992px) {
+    h1{font-size: 3rem;}
+    
+  }
+  
+  
 
 
 
