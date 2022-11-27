@@ -50,7 +50,11 @@ p {
     display: inline-block;
   }
   
-  
+    @media screen and (max-width: 773px) {
+    h1{font-size: 2rem;}
+    p{font-size: 1rem;}
+    
+  }
 
 
 
